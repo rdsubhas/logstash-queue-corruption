@@ -34,3 +34,4 @@ docker exec $id curl \
 echo '####'
 echo '#### LOGSTASH IS DEAD NOW, WILL WORK NO MORE'
 echo '####'
+docker logs $id
