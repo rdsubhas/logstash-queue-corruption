@@ -1,0 +1,15 @@
+P [./tests.sh:15] test_first_works
+  
+  Sending build context to Docker daemon  5.632kB
+  Step 1 : FROM docker.elastic.co/logstash/logstash:5.6.1
+   ---> c3813901f5c0
+  Step 2 : COPY logstash.yml /usr/share/logstash/config/logstash.yml
+   ---> Using cache
+   ---> 35da1425b395
+  Step 3 : COPY pipeline.conf /usr/share/logstash/pipeline/logstash.conf
+   ---> Using cache
+   ---> e2c2e991c882
+  Successfully built e2c2e991c882
+  707a3ac89ef8b67741239a29f3a15a5043ecd3fa43050728c76812794ad63028
+  hi
+
